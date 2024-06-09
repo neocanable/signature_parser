@@ -1,5 +1,9 @@
-# signature_parser
-java class method field signature parser
+# Signature Parser
+for parse class file's signature attributes and generic type
+
+https://docs.oracle.com/javase/specs/jvms/se15/html/jvms-4.html#jvms-4.7.9.1
+
+####example:
 
 ```shell
 
@@ -9,3 +13,4 @@ java class method field signature parser
 [parameter type]: io/reactivex/rxjava3/functions/BiFunction<? super T & java.lang.Object, ? super U & java.lang.Object, ? extends R>
 [return type]: io/reactivex/rxjava3/core/Flowable<R>
 ```
+
